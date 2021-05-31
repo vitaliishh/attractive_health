@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WoWithCases2"
+    android:orientation="vertical"
+    android:background="@color/gray_2"
+    >
+
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"
+        app:elevation="0dp"
+
+        >
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/main_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+
+            />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="vertical"
+        android:minHeight="0dp"
+        android:minWidth="0dp"
+        >
+        <Button
+            android:minHeight="0dp"
+            android:minWidth="0dp"
+            android:id="@+id/backBtn"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="@string/back_sym"
+            android:gravity="left|center"
+            android:stateListAnimator="@null"
+            android:layout_marginLeft="-5dp"
+            android:layout_marginRight="-5dp"
+            android:layout_marginTop="-6dp"
+            android:layout_marginBottom="-6dp"
+            android:textColor="@color/main_gray"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:paddingLeft="40dp"
+            android:background="@drawable/back_button_anim"
+            />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:gravity="center"
+            android:text="@string/create_diet"
+            android:textColor="@color/main_gray"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="38dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <FrameLayout
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_marginRight="15dp">
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/button"
+                android:gravity="top"
+                android:lineSpacingMultiplier="1.2"
+                android:padding="19dp"
+                android:stateListAnimator="@null"
+                android:text="@string/standart"
+                android:textAllCaps="false"
+                android:textColor="@color/main_gray"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="bottom|right"
+                android:layout_marginRight="19dp"
+                android:layout_marginBottom="19dp"
+                android:background="@drawable/ic_work_ic_1"
+                android:translationZ="200dp" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_marginLeft="15dp">
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/button"
+                android:gravity="top"
+                android:lineSpacingMultiplier="1.2"
+                android:padding="19dp"
+                android:stateListAnimator="@null"
+                android:text="@string/for_get_muscle"
+                android:textAllCaps="false"
+                android:textColor="@color/main_gray"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="bottom|right"
+                android:layout_marginRight="19dp"
+                android:layout_marginBottom="19dp"
+                android:background="@drawable/ic_work_ic_1"
+                android:translationZ="200dp" />
+
+        </FrameLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <FrameLayout
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_marginRight="15dp">
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/button"
+                android:gravity="top"
+                android:lineSpacingMultiplier="1.2"
+                android:padding="19dp"
+                android:stateListAnimator="@null"
+                android:text="@string/for_dry"
+                android:textAllCaps="false"
+                android:textColor="@color/main_gray"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="bottom|right"
+                android:layout_marginRight="19dp"
+                android:layout_marginBottom="19dp"
+                android:background="@drawable/ic_work_ic_1"
+                android:translationZ="200dp" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_marginLeft="15dp">
+
+
+        </FrameLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "430475084746",
+    "firebase_url": "https://attractivehealth-31d2b-default-rtdb.firebaseio.com",
+    "project_id": "attractivehealth-31d2b",
+    "storage_bucket": "attractivehealth-31d2b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:430475084746:android:9a86ffa8d64604c8b20533",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "430475084746-02mpe7gsglpbk7unjho7aocr2tq4u6g3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJrB7QcZP2ZG0fpYRX-wlgLND6AOqfqQY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "430475084746-02mpe7gsglpbk7unjho7aocr2tq4u6g3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

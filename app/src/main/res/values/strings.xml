@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Attractive health</string>
+    <string name="select_gender">Выберите пол</string>
+    <string name="man">Мужской</string>
+    <string name="women">Женский</string>
+    <string name="all_option">Все опции</string>
+    <string name="create_diet">Составить диету</string>
+    <string name="training_program">Программа тренировок</string>
+    <string name="interesting_facts">Интересные факты</string>
+    <string name="back_sym">&lt;</string>
+    <string name="standart">Стандартная</string>
+    <string name="for_get_muscle">Для набора мышц</string>
+    <string name="for_dry">Для сушки</string>
+    <string name="change_products">Сменить продукты</string>
+    <string name="change_program">Сменить программу</string>
+    <string name="change_fact">Сменить факт</string>
+    <string name="breakfast">Завтрак</string>
+    <string name="lunch">Обед</string>
+    <string name="dinner">Ужин</string>
+    <string name="about_us">О нас</string>
+    <string name="about_us_descr">Все что не делается делаеться к лутшему.</string>
+    <string name="add_to_db">Добавить в базу</string>
+    <string name="dell_by_id">Удалить по айди</string>
+    <string name="all_posts">Все записи</string>
+
+</resources>

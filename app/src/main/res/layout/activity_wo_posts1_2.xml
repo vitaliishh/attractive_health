@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_2"
+    android:orientation="vertical"
+    tools:context=".WoPosts1_2">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"
+        app:elevation="0dp"
+
+        >
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/main_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+
+            />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="50dp"
+            >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:minWidth="0dp"
+                android:minHeight="0dp"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/backBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="-5dp"
+                    android:layout_marginTop="-6dp"
+                    android:layout_marginRight="-5dp"
+                    android:layout_marginBottom="-6dp"
+                    android:background="@drawable/back_button_anim"
+                    android:gravity="left|center"
+                    android:minWidth="0dp"
+                    android:minHeight="0dp"
+                    android:paddingLeft="40dp"
+                    android:stateListAnimator="@null"
+                    android:text="@string/back_sym"
+                    android:textColor="@color/main_gray"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    android:gravity="center"
+                    android:text="@string/for_dry"
+                    android:textColor="@color/main_gray"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="45dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/changePostBtn"
+                    android:layout_width="220dp"
+                    android:layout_height="53dp"
+                    android:layout_marginRight="57dp"
+                    android:background="@drawable/button"
+                    android:stateListAnimator="@null"
+                    android:text="@string/change_products"
+                    android:textAllCaps="false"
+                    android:textColor="@color/main_gray"
+                    android:textSize="20sp"
+
+                    />
+
+                <TextView
+                    android:id="@+id/currDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="Сегодня\n18.02.2021" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="39dp"
+                android:gravity="center"
+                android:orientation="vertical"
+
+                >
+
+                <FrameLayout
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/button_backg">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="19dp">
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="@string/breakfast"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textOpt1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="1. 2 вареных яйца или яичница."
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/textOpt2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="2. Салат из зелени с помидорами"
+                            android:textSize="20sp"
+
+                            />
+
+                        <TextView
+                            android:id="@+id/textOpt3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="3. Овсяная каша без молока"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/textOpt4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="30dp"
+                            android:text="Калорийность: 500 кКал"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/textOpt5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="Цена: 100грн"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/textOpt6"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="Время приготовления: 30 мин"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+                </FrameLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="39dp"
+                android:gravity="center"
+                android:orientation="vertical"
+
+                >
+
+                <FrameLayout
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/button_backg">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="19dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="@string/lunch"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textOpt7"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="20sp"
+                            android:layout_marginTop="5dp"
+                            android:text="1. 2 вареных яйца или яичница."
+                            />
+
+                        <TextView
+                            android:id="@+id/textOpt8"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="2. Салат из зелени с помидорами"
+                            android:textSize="20sp"
+                            android:layout_marginTop="5dp"
+
+                            />
+
+                        <TextView
+                            android:id="@+id/textOpt9"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="3. Овсяная каша без молока"
+                            android:textSize="20sp"
+                            android:layout_marginTop="5dp"
+                            />
+
+                        <TextView
+                            android:id="@+id/textOpt10"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="30dp"
+                            android:text="Калорийность: 500 кКал"
+                            android:textSize="20sp"
+                            />
+
+                        <TextView
+                            android:id="@+id/textOpt11"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Цена: 100грн"
+                            android:textSize="20sp"
+                            android:layout_marginTop="5dp"/>
+
+                        <TextView
+                            android:id="@+id/textOpt12"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Время приготовления: 30 мин"
+                            android:textSize="20sp"
+                            android:layout_marginTop="5dp"/>
+                    </LinearLayout>
+                </FrameLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="39dp"
+                android:gravity="center"
+                android:orientation="vertical"
+
+                >
+
+                <FrameLayout
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/button_backg">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="19dp">
+
+                        <TextView
+                            android:id="@+id/textView19"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="@string/dinner"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textOpt13"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="20sp"
+                            android:layout_marginTop="5dp"
+                            android:text="1. 2 вареных яйца или яичница."
+                            />
+
+                        <TextView
+                            android:id="@+id/textOpt14"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="2. Салат из зелени с помидорами"
+                            android:textSize="20sp"
+                            android:layout_marginTop="5dp"
+
+                            />
+
+                        <TextView
+                            android:id="@+id/textOpt15"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="3. Овсяная каша без молока"
+                            android:textSize="20sp"
+                            android:layout_marginTop="5dp"
+                            />
+
+                        <TextView
+                            android:id="@+id/textOpt16"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="30dp"
+                            android:text="Калорийность: 500 кКал"
+                            android:textSize="20sp"
+                            />
+
+                        <TextView
+                            android:id="@+id/textOpt17"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Цена: 100грн"
+                            android:textSize="20sp"
+                            android:layout_marginTop="5dp"/>
+
+                        <TextView
+                            android:id="@+id/textOpt18"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Время приготовления: 30 мин"
+                            android:textSize="20sp"
+                            android:layout_marginTop="5dp"/>
+                    </LinearLayout>
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

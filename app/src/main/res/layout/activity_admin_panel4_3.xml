@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminPanel4_3"
+    android:background="@color/gray_2"
+    android:orientation="vertical"
+    >
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"
+        app:elevation="0dp"
+
+        >
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/main_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+
+            />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="79dp"
+                    android:gravity="center"
+                    android:text="Админ панель Facts"
+                    android:textColor="@color/main_gray"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="40dp">
+
+                <EditText
+                    android:id="@+id/opt1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="1 пункт"
+                    android:inputType="textPersonName" />
+
+
+                <Button
+                    android:id="@+id/addBtn"
+                    android:layout_width="232dp"
+                    android:layout_height="68dp"
+
+                    android:layout_marginTop="20dp"
+                    android:text="@string/add_to_db"
+                    android:textAllCaps="false"
+                    android:textColor="@color/main_gray"
+                    android:textSize="20sp"
+
+                    android:background="@drawable/button"
+                    android:stateListAnimator="@null"
+                    />
+
+                <EditText
+                    android:id="@+id/idInp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="70dp"
+                    android:ems="10"
+                    android:hint="айди"
+                    android:inputType="textPersonName" />
+
+
+                <Button
+                    android:id="@+id/dellBtn"
+                    android:layout_width="232dp"
+                    android:layout_height="68dp"
+
+                    android:layout_marginTop="20dp"
+                    android:text="@string/dell_by_id"
+                    android:textAllCaps="false"
+                    android:textColor="@color/main_gray"
+                    android:textSize="20sp"
+
+                    android:background="@drawable/button"
+                    android:stateListAnimator="@null"
+                    />
+
+
+                <Button
+                    android:id="@+id/backBtn"
+                    android:layout_width="232dp"
+                    android:layout_height="68dp"
+                    android:text="@string/all_posts"
+                    android:textAllCaps="false"
+                    android:textColor="@color/main_gray"
+                    android:textSize="20sp"
+
+                    android:background="@drawable/button"
+                    android:stateListAnimator="@null"
+                    android:layout_marginTop="70dp"
+                    />
+
+                <Button
+                    android:id="@+id/clearAllPosts"
+                    android:layout_width="232dp"
+                    android:layout_height="68dp"
+                    android:text="Очистить все посты"
+                    android:textAllCaps="false"
+                    android:textColor="@color/main_gray"
+                    android:textSize="20sp"
+
+                    android:background="@drawable/button"
+                    android:stateListAnimator="@null"
+                    android:layout_marginTop="70dp"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

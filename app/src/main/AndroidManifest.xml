@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication">
+        <activity android:name=".WoPosts2_2"></activity>
+        <activity android:name=".WoPosts2_1" />
+        <activity android:name=".WoPosts2" />
+        <activity android:name=".WoWithCases2_1" />
+        <activity android:name=".WoPosts1_2" />
+        <activity android:name=".WoPosts1_1" />
+        <activity android:name=".WoPosts1" />
+        <activity android:name=".WoWithCases2" />
+        <activity android:name=".WoWithCases" />
+        <activity android:name=".Posts2_2" />
+        <activity android:name=".Posts2_1" />
+        <activity android:name=".WithCases2_1" />
+        <activity android:name=".Posts1_2" />
+        <activity android:name=".Posts1_1" />
+        <activity android:name=".AdminPanel5AllPosts_3" />
+        <activity android:name=".AdminPanel4_3" />
+        <activity android:name=".AdminPanel5AllPosts_2" />
+        <activity android:name=".AdminPanel4_2" />
+        <activity android:name=".AdminPanel5AllPosts" />
+        <activity android:name=".AdminPanel4" />
+        <activity android:name=".AdminPanel3" />
+        <activity android:name=".AndminPanel1" />
+        <activity android:name=".AboutUs" />
+        <activity android:name=".Posts3" />
+        <activity android:name=".Posts2" />
+        <activity android:name=".Posts1" />
+        <activity android:name=".WithCases2" />
+        <activity android:name=".WithCases" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
